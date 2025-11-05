@@ -1,0 +1,29 @@
+{
+  "name": "novapay",
+  "version": "1.0.0",
+  "description": "MVP para uma apresentação de um projeto de faculdade sobre uma fintech que utiliza de blockchain para registrar as transações.",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^13.0.0"
+  },
+  "scripts": {
+    "start:dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamsanttos-dev/NovaPay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamsanttos-dev/NovaPay/issues"
+  },
+  "homepage": "https://github.com/williamsanttos-dev/NovaPay#readme"
+}
