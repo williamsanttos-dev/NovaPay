@@ -14,8 +14,6 @@ function sha256(input) {
 export function addTransactionAndBlock(txPayload) {
   const chain = loadChain();
   const tx = createTransaction(txPayload);
-  // uma transação por bloco.
-  // estamos pegando o último bloco e passando a última transação para criar um bloco válido.
   const newBlock = createBlock([tx], chain[chain.length - 1]);
   chain.push(newBlock);
   saveChain(chain);
