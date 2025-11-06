@@ -1,4 +1,26 @@
+@baseUrl = http://localhost:3002
 
-// health
-GET http://localhost:3002/health
+### 
+# health - health check endpoint
+GET {{baseUrl}}/health
 
+###
+# tx - create transaction
+POST {{baseUrl}}/tx
+Content-Type: application/json
+
+{
+  "from": "Alice",
+  "to": "Bob",
+  "amount": 50,
+  "meta": "Pagamento de teste",
+  "signature": null
+}
+
+###
+# chain - return all blocks
+GET {{baseUrl}}/chain
+
+### 
+# verify - returns whether the block is intact or not
+GET {{baseUrl}}/verify
