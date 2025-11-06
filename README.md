@@ -4,7 +4,7 @@ MVP para uma apresentação de um projeto de faculdade sobre uma fintech que uti
 
 O objetivo é **demonstrar o conceito de registro público e imutável de transações**.
 
-## Componentes do Sistema
+## ⚙️ Componentes do Sistema
 
 Backend(Node)
 
@@ -46,7 +46,9 @@ Frontend (Web)
 ## 🔍 O que o MVP demonstra tecnicamente
 
 ✅ **Conceito de imutabilidade e rastreabilidade** — os hashes e o encadeamento dos blocos mostram como a blockchain garante integridade.
+
 ✅ **Prova de transparência** — qualquer pessoa pode ler a ledger (registro público).
+
 ✅ **Usabilidade e simplicidade** — a UI mostra como seria fácil usar o sistema.
 
 ## Como rodar o projeto
